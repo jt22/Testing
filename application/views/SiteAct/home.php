@@ -14,7 +14,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	body {
 		
-		background-color: #777;
+		background-color: #000000;
 		font: 13px/20px normal Helvetica, Arial, sans-serif;
 		color: #4F5155;
 		width: 1300px;
