@@ -33,10 +33,7 @@ class Site extends CI_Controller {
 	
 	
 	public function userlist(){
-		$this->load->model('site_model');
+		$this->load->model('welcome_message');
 		
-		$results['user'] = $this->site_model->get();
-
-		$this->load->view('SiteAct/profile', $results);
 	}
 }
